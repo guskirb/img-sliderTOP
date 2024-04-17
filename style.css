@@ -1,0 +1,35 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  box-sizing: border-box;
+  height: 100vh;
+}
+
+body > img {
+  height: 80px;
+  width: 80px;
+  padding: 30px;
+}
+
+.imgContainer {
+  height: 70vh;
+  width: 50vw;
+  background-color: red;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  padding: 20px;
+  border-radius: 20px;
+  background-size: cover;
+}
+
+.imgDots > img {
+  height: 10px;
+  padding: 5px;
+}
+
+.active {
+  height: 20px !important;
+}
